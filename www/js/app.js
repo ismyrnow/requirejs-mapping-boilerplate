@@ -1,8 +1,6 @@
-// Place third party dependencies in the lib folder
-//
-// Configure loading modules from the lib directory,
-// except 'app' ones, 
-requirejs.config({
+'use strict';
+
+require.config({
   'baseUrl': 'js/lib',
   'paths': {
     'app': '../app',
@@ -14,4 +12,4 @@ requirejs.config({
 });
 
 // Load the main app module to start the app
-requirejs(['app/main']);
+require(['app/main']);
