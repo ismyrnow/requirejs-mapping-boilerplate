@@ -4,12 +4,12 @@ define(function (require) {
   
   var $ = require('jquery');
   var Handlebars = require('handlebars');
+  var exampleTemplate = require('hbs!./templates/example');
   require('bootstrap');
   
   $(function () {
     
-    var template = Handlebars.compile('<p>jQuery, Bootstrap, and {{hbs}} have been loaded.</p>');
-    var content = template({ hbs: 'Handlebars' });
+    var content = exampleTemplate({ hbs: 'Handlebars' });
     
     $('body').append(content);
     
