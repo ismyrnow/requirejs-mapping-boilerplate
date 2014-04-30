@@ -2,8 +2,9 @@
   "name": "requirejs-mapping-boilerplate",
   "version": "0.0.0",
   "description": "RequireJS Starter App\r =====================",
-  "main": "index.js",
+  "main": "",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,5 +14,10 @@
   "author": "Ishmael Smyrnow",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "90d7224fc9d26a4958ff5fc2e7b3a12c14dcfa8d"
+  "gitHead": "90d7224fc9d26a4958ff5fc2e7b3a12c14dcfa8d",
+  "dependencies": {
+    "express": "~4.1.1",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.2"
+  }
 }

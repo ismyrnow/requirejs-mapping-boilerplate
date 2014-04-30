@@ -48,7 +48,7 @@ Notice the usage of the CommonJS syntax. I prefer this over the humongous depend
 
 ### How to see it in action
 
-Just serve up the www/ folder using any web server you'd like, or use the included one with `node tools/server.js`. Then go to [localhost:8888/www/app.html](http://localhost:8888/www/app.html) in your browser.
+`npm start` to launch the exress server, which serves up the static/ folder. Then go to [localhost:8080](http://localhost:8080) in your browser.
 
 ### How to optimize it using r.js
 
