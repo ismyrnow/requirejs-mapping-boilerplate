@@ -10,6 +10,9 @@ require.config({
     'bootstrap': ['jquery'],
     'handlebars': {
       exports: 'Handlebars'
+    },
+    'leaflet': {
+      exports: 'L'
     }
   }
 });
