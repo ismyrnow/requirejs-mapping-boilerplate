@@ -13,7 +13,7 @@ define(function (require) {
   
   function testHandlebars() {    
     var content = exampleTemplate({ hbs: 'Handlebars' });    
-    $('body').append(content);
+    $('body>.container').append(content);
   }
   
   function testLeaflet() {
