@@ -1,7 +1,12 @@
 'use strict';
 
-define(['jquery', 'bootstrap'], function ($) {
+define(function (require) {
+  
+  var $ = require('jquery');
+  require('bootstrap');
+  
   $(function () {
     $('body').append('jQuery and Bootstrap have been loaded.');
   });
+  
 });
