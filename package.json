@@ -1,0 +1,17 @@
+{
+  "name": "requirejs-mapping-boilerplate",
+  "version": "0.0.0",
+  "description": "RequireJS Starter App\r =====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ismyrnow/requirejs-mapping-boilerplate.git"
+  },
+  "author": "Ishmael Smyrnow",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "90d7224fc9d26a4958ff5fc2e7b3a12c14dcfa8d"
+}
