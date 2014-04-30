@@ -3,10 +3,16 @@
 define(function (require) {
   
   var $ = require('jquery');
+  var Handlebars = require('handlebars');
   require('bootstrap');
   
   $(function () {
-    $('body').append('jQuery and Bootstrap have been loaded.');
+    
+    var template = Handlebars.compile('<p>jQuery, Bootstrap, and {{hbs}} have been loaded.</p>');
+    var content = template({ hbs: 'Handlebars' });
+    
+    $('body').append(content);
+    
   });
   
 });

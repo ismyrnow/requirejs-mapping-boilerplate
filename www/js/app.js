@@ -7,7 +7,10 @@ require.config({
     'bootstrap': 'bootstrap.min'
   },
   'shim': {
-    'bootstrap': ['jquery']
+    'bootstrap': ['jquery'],
+    'handlebars': {
+      exports: 'Handlebars'
+    }
   }
 });
 
